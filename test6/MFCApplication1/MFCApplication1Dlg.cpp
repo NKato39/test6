@@ -159,5 +159,6 @@ HCURSOR CMFCApplication1Dlg::OnQueryDragIcon()
 void CMFCApplication1Dlg::OnBnClickedOk()
 {
 	// TODO: ここにコントロール通知ハンドラー コードを追加します。
+	AfxMessageBox(_T("OK"));
 	CDialogEx::OnOK();
 }
