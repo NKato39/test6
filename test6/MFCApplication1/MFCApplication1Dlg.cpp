@@ -1,6 +1,6 @@
 ﻿
 // MFCApplication1Dlg.cpp : 実装ファイル
-//
+//ver001
 
 #include "pch.h"
 #include "framework.h"
