@@ -65,6 +65,7 @@ BEGIN_MESSAGE_MAP(CMFCApplication1Dlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDOK, &CMFCApplication1Dlg::OnBnClickedOk)
 END_MESSAGE_MAP()
 
 
@@ -153,3 +154,10 @@ HCURSOR CMFCApplication1Dlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CMFCApplication1Dlg::OnBnClickedOk()
+{
+	// TODO: ここにコントロール通知ハンドラー コードを追加します。
+	CDialogEx::OnOK();
+}
